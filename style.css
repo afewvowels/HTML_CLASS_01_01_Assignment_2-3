@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+html, body {
+  height: 100%;
+  font-family: 'Ubuntu Mono', monospace;
+  background-color: #004B4F;
+  color: #C4BFB1;
+  margin: 0px;
+}
+
+button {
+  border: none;
+  padding: 20px 45px 20px 45px;
+  font-size: 16px;
+  background-color: #003847;
+  border: 3px solid #004B4F;
+  color: #C4BFB1;
+}
+
+button:active {
+  background-color: #996C11;
+  border: 3px solid #996C11;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(196, 191, 177, 0), rgba(196, 191, 177, 0.75), rgba(196, 191, 177, 0.75), rgba(196, 191, 177, 0.75), rgba(196, 191, 177, 0));
+}
+
+fieldset {
+  width: 80%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#main_container {
+  background-color: #003847;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 650px;
+  height: 100%;
+}
+
+#menu_div {
+  margin-top: 20px;
+}
+
+#radio_fieldset {
+  text-align: center;
+}
+
+#buttons_group {
+  text-align: center;
+}
+
+#assignment_2 {
+  margin: auto;
+  width: 80%;
+}
+
+#assignment_3 {
+  display: none;
+}
+
+#copyright_info {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 15px;
+  padding-top: 5px;
+}
+
+
+.button {
+  border: none;
+  padding: 20px 45px 20px 45px;
+  font-size: 16px;
+  background-color: #003847;
+  border: 3px solid #004B4F;
+  color: #C4BFB1;
+}
+
+.button:active {
+  background-color: #996C11;
+  border: 3px solid #996C11;
+}

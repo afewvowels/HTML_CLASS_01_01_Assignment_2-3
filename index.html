@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+  <meta charsest='utf-8' />
+
+  <link rel='stylesheet' href='./style.css' />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i" rel="stylesheet">
+
+  <script src='./scripts.js'></script>
+
+  <title>CSIS 1570 - Assignment 2 & 3</title>
+</head>
+
+<body>
+  <div id='main_container'>
+    <h1>Keith Smith</h1>
+
+    <hr>
+
+    <nav>
+      <div id='menu_div'>
+        <ul>
+          <li><button type='button' onclick='showAssignment2()'>Assignment #2</button></li>
+          <li><button type='button' onclick='showAssignment3()'>Assignment #3</button></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id='assignment_2'>
+      <form>
+        <div id='tags_example_container' class='common_styling'>
+          <p><cite>Lorem ipsum</cite> dolor sit amet, consectetur adipiscing elit. Nunc blandit consequat urna at tristique.<br><br><em>Donec vitae bibendum orci.</em> <q cite="https://lipsum.com/">Duis sed vestibulum tortor, non rhoncus purus. Vestibulum scelerisque ipsum diam, vitae pulvinar metus imperdiet in.</q><br><br><abbr title="A Very Long Acronym That Is Long">AVLATIL</abbr> Maecenas mattis ipsum vitae malesuada lacinia. Aliquam in tincidunt tellus. Nam mattis orci lacus, nec pulvinar nunc vulputate ac.<br><br><span>Nam euismod malesuada dui et egestas.</span> Nulla interdum, velit vitae accumsan pellentesque, nibh turpis interdum ex, in vehicula enim quam at metus.<br><br><code>Nulla ligula ante, laoreet a tortor in, congue suscipit lorem. Vivamus sagittis dictum ligula et fermentum.</code></p>
+        </div>
+      </section>
+
+      <section id='assignment_3'>
+        <fieldset><legend>Example Form</legend>
+          <p>
+            <label for="text_field">Name:</label><input type='text' size='20' maxlength='20' name='text_field' id='text_field' placeholder='Name goes here' required autofocus title='Enter text here' autocomplete pattern='[A-Za-z]{2,20}' />
+          </p>
+
+          <p>
+            <label for="email_field">Email:</label><input type='email' size='40' maxlength='40' name='email_field' id='email_field' placeholder='example@domain.com' required autofocus title='Enter email address here' autocomplete='email' />
+          </p>
+
+          <!--This is a password field input-->
+          <p>
+            <label for="password_field">Password:</label><input type='password' size='20' maxlength='20' name='password_field' id='password_field' placeholder='Enter password here' required autofocus title='Please enter your password here' autocomplete pattern='[A-Za-z]{2,20}' />
+          </p>
+
+          <p>
+            <fieldset>
+              <legend>Radio button fieldset</legend>
+              <div id='radio_fieldset'>
+                <label for='radio_fieldset_option_1'>Option #1:</label><input type='radio' name='radio_fieldset' id='radio_fieldset_option_1' value='option 1' checked='checked' />
+                <label for='radio_fieldset_option_2'>Option #2:</label><input type='radio' name='radio_fieldset' id='radio_fieldset_option_2' value='option 2' />
+                <label for='radio_fieldset_option_3'>Option #3:</label><input type='radio' name='radio_fieldset' id='radio_fieldset_option_3' value='option 3' />
+              </div>
+            </fieldset>
+          </p>
+
+          <!--This is a drop-down menu with two groups of three options each-->
+          <p>
+            <label for='pull_down_menu_field'>Select an Option:</label>
+            <select name='pull_down_menu_field' id='pull_down_menu_field' size='1' >
+              <optgroup label='Option 1'>
+                <option value="Option_1_A" selected='selected'>Option 1-A</option>
+                <option value="Option_1_B">Option_1_B</option>
+                <option value="Option_1_C">Option_1_C</option>
+              </optgroup>
+
+              <optgroup label='Option 2'>
+                <option value="Option_2_A">Option_2_A</option>
+                <option value="Option_2_B">Option_2_B</option>
+                <option value="Option_2_C">Option_2_C</option>
+              </optgroup>
+            </select>
+          </p>
+
+          <p>
+            <fieldset>
+              <legend>Checkbox button fieldset</legend>
+              <div id='radio_fieldset'>
+                <label for="first_checkbox">First checkbox button:</label><input type='checkbox' name='checkbox_buttons_field[]' id='first_checkbox' value='First checkbox button' checked='checked' /><br>
+                <label for="second_checkbox">Second checkbox button:</label><input type='checkbox' name='checkbox_buttons_field[]' id='second_checkbox' value='Second checkbox button' /><br>
+                <label for="third_checkbox">Third checkbox button:</label><input type='checkbox' name='checkbox_buttons_field[]' id='third_checkbox' value='Third checkbox button' />
+              </div>
+            </fieldset>
+          </p>
+
+          <p>
+            <label for="file_upload_field">File upload:</label><input type='file' name='file_upload_field' id='file_upload_field' />
+          </p>
+
+          <p>
+            <div id='buttons_group'>
+              <input type='submit' name='submit_button' id='submit_button' class='button' value='Click to submit!' />
+              <input type='reset' name='reset_button' id='reset_button' class='button' value='Click to reset!' />
+            </div>
+          </p>
+
+        </fieldset>
+      </form>
+    </section>
+
+    <hr>
+    <div id='copyright_info'>&copy;2018 Keith Smith</div>
+  </div>
+</body>
+</html>

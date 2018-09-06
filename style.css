@@ -52,6 +52,12 @@ fieldset {
   margin-bottom: 25px;
 }
 
+#return_link {
+  color: #C4BFB1;
+  text-decoration: none;
+
+}
+
 #bg_fill {
   background-color: #003847;
   position: absolute;
